@@ -1,1 +1,1 @@
-odin- recipies
+odin- recipies https://mabeliscf.github.io/odin-recipes/
