@@ -1,0 +1,277 @@
+.flex-container{
+    display: flex;
+}
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+  }
+  .flex-container .two{
+      flex-shrink: 0;
+  }
+
+  .flex-container .flex-items{
+      flex: auto;
+  }
+  .flex-container .raw-items{
+      width: 5rem;
+  }
+  .container  {
+    padding: 16px;
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .items{
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 60px;
+    width: 40px;
+    
+    
+  }
+  .container-header{
+    padding: 16px;
+    background: peachpuff;
+    align-items: center;
+    justify-content: space-between;
+   display: flex;
+   
+  }
+  .items-header{
+    background: white;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+  list-style-type: none;
+    display: flex;
+    gap: 8px;
+  
+  }
+ .logo{
+    background: white;
+    color: red;
+ 
+    padding: 9px;
+  
+  }
+
+  .flexbox3-container{
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: rgb(179, 119, 179);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    
+  }
+ .flexbox3-logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 16px;
+  }
+ .listaEnlaces{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.links{
+  
+    text-decoration: none;
+    color:rgb(179, 119, 179);
+}
+.flexbox-btn{
+    display: flex;
+    align-items: center;
+    gap:18px
+}
+.btton {
+    border-radius: 10px;
+    background-color: plum;
+    border:2px rgb(211, 147, 211);
+    padding: 8px;
+    margin: 0;
+}
+.circle{
+    border-radius: 50px;
+    background-color: plum;
+    border:2px rgb(211, 147, 211);
+    padding: 20px;
+    
+}
+
+.flexbox4-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox4-header{
+    display: flex;
+    justify-content: center;
+   
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+.flexbox4-body{
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.flexbox4-item{
+    margin: 0;
+    padding: 0;
+    max-width: 200px;
+    
+
+}
+.flexbox4-item img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+/*flexbox 5*/
+.modal {
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    padding: 16px;
+}
+.flexbox5-container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox5-header{
+ display: flex;
+ justify-content: space-between;
+ flex-shrink: 0;
+}
+.flexbox5-title{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    gap:  18px;
+    font-weight: bold;
+
+}
+.flexbox5-close-button{
+  
+    margin-top: 25px;
+}
+.flexbox5-button{
+    display: flex;
+    gap: 8px;
+}
+.flexbox5-text{
+    flex-shrink: 0;
+}
+
+.icon{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    background-color: plum;
+    border: none;
+    margin-top: 25px;
+    flex-shrink: 0;
+}
+.close{
+    background-color: rgb(180, 180, 180);
+}
+
+.icon,.close{
+    border-radius: 50%;
+    padding: 20px;
+    border: none;
+}
+.continue,.cancel{
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+}
+.continue{
+    background-color: rgb(54, 54, 165);
+    color:  white;
+    border:none;
+
+}
+.cancel{
+    border: 1px solid grey;
+    color:  rgb(54, 54, 165);
+    background-color: white;
+}
+
+/* flexbox 6*/
+body{
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+
+.f6-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.f6-items{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    padding: 5px;
+    color: gray;
+}
+.footer{
+    background-color: blanchedalmond;
+    
+}
+
+.f6-body{
+    flex: 1 ;
+    display: flex;
+    gap: 8px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+h1{
+    color: yellowgreen;
+    
+}
+input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 500px;
+}
+button{
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+img{
+
+    width: 150px;
+    height: 150px;
+}

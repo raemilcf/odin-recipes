@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+}
+h2{
+    color:rgb(2, 92, 7)
+}
+
+.first .list a{
+    color:rgb(102, 5, 5);
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+p{
+    color: rgb(4, 4, 158);
+}
+
+.recipe .ingredients li{
+
+    color: rgb(2, 2, 92);
+
+}
+.recipe .howto li{
+    color: rgb(10, 90, 136);
+
+}
